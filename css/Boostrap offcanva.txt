@@ -1,0 +1,35 @@
+1-<ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+  </li>
+</ul>
+
+
+2-<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  Dropdown
+</button>
+<ul class="dropdown-menu">
+  <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+  <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+  <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+</ul>
+</div>
+
+3-<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
